@@ -1,3 +1,10 @@
+/*
+  Autor: Markel Cortazar
+  Asignatura: LMSGI
+  Unidad: UD02
+  Tarea: Tarea Evaluativa 02
+  Fecha: 23/10/2025
+*/
 @import "normalize.css";
 @import "páginas.css";
 @import url('https://fonts.googleapis.com/css2?family=Special+Gothic:wght@400..700&display=swap');
@@ -249,4 +256,5 @@ footer {
     height: 120px;
     width: 120px;
     object-fit: cover;
+
 }
