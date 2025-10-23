@@ -1,0 +1,98 @@
+/*PRODUCTO*/
+
+.product >  img{
+    height: 700px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.product h1 {
+    margin-bottom: 10%;
+}
+
+.product p {
+    margin: 1% 5%;
+}
+
+/*CATEGORIES*/
+
+.category-product {
+    display: flex;    
+    width: 100%;
+    justify-content: space-between;
+}
+
+.category-product section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.category-product h1{
+    width: 40%;
+    line-height: 0.4rem;
+    text-align: left;
+}
+.category-product div{
+    width: 10%;
+    height: 20%;
+    display: flex;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+/*ABOUT US*/
+
+#about-us {
+    width: 50%;
+}
+
+#about-us img {
+    padding: 3%;
+}
+
+#about-us section {
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 15%;
+}
+
+/*Botones de ver más en articulos*/
+.center-section article section a {
+    position: absolute;
+    bottom: 20%;
+    left: 100%;
+    background-color: var(--main-accent-color);
+    padding: 1% 4%;
+}
+
+/*CONTACTO*/
+form {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    align-self: center;
+}
+
+form h3 {
+    text-align: left;
+}
+
+form textarea {
+    text-align: left;
+}
+
+form input[type=submit] {
+    margin-top: 2rem;
+    width: 65%;
+    align-self: center;
+}

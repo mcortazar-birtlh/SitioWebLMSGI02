@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="descripción" content="Página para LMSGI">
+        <meta name="keywords" content="LMSGI,BIRTLH,PLANTAS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <title>Página de Markel Cortazar</title>
+    </head>
+    <body>
+        <!--Cabecera de la página web, incluye navegación-->
+        <header class="full-width">
+            <a href="./index.html">
+                <img src="img/icono-logo-principal.svg" class="main-logo" alt="Logo de la página web">
+            </a>
+            <h1>PLANTAS</h1>
+            <!--Sección de navegación a las páginas que no son productos o categorías-->    
+            <nav>
+                <a class="scale-on-hover" href="./noticias.html">
+                    <p>
+                        NOTICIAS
+                    </p>
+                </a>
+                <a class="scale-on-hover" href="./contacto.html">
+                    <p>
+                        CONTACTO
+                    </p>
+                </a>
+            </nav>
+        </header>
+
+        <!--Contenido y navegación por lista de categorias-->
+        <main>
+            <!--Sección de navegación de categorías de productos-->
+            <nav class="category-list">
+                <!--Incluye las principales categorias de interés, no lleva texto de cabecera así que no es un <section> -->
+                <div class="main-categories">
+                    <a class="scale-on-hover" href="./categoria-externas.html">
+                        <img src="./img/plantas-exterior-banner.jpg" class="img-resize" alt="Imagen de jardín exterior.">
+                        <p>EXTERIOR</p>
+                    </a>
+                    <a href="./página-no-existe.html" class="scale-on-hover">
+                        <img src="./img/plantas-interior-banner.jpg" class="img-resize" alt="Imagen de plantas de interior">
+                        <p>INTERIOR</p>
+                    </a>
+                    <a href="./página-no-existe.html" class="scale-on-hover">
+                        <img src="./img/plantas-facil-banner.jpg" class="img-resize" alt="Imagen de un pequeño cactus siendo regado">
+                        <p>FÁCIL DE CUIDAR</p>
+                    </a>
+                </div>
+                <!--Acceso a categorias menores-->
+                <section class="secondary-categories">
+                    <h2>FAMILIAS</h2>
+                    <ul>
+                        <li>
+                            <a href="./página-no-existe.html">Suculentas</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Orquídeas</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Arbustos</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Fuchsias</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Rosas</a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+            <!--Contiene la información de presentación de la página, este apartado incluye una imagen junto al texto, sin cabecera para todo, asi que es un div-->
+            <div id="about-us" class="center-section">
+                <img src="./img/plantas-principal.jpg" class="img-resize" alt="Imagen de orquídeas sobre una mesa.">
+                <section>
+                    <h2>¿QUIÉNES SOMOS?</h2>
+                    <p>Somos la página web líder en el mercado para todas las necesidades de tus plantas y jardín.</p>
+                    <p>Encuentra aquí toda la información sobre plantas, sus categorías, datos, características y noticias más punteras</p>
+                    <p>¿Cómo cuidarla? Con nosotros tienes la respuesta a un click.</p>
+                </section>
+            </div>
+            <!--Incluye un texto que se espera sea cambiante y no relacionado al contenido central de la página-->
+            <aside class="side-box-right">
+                <h2>PLANTA DEL DÍA</h2>
+                    <img src="img/plantas-fuchsia.jpg" class="img-resize" alt="Imagen de las flores de una fuchsia.">
+                    <p>El género de las Fuchsias está compuesto mayoritariamente por arbustos relativamente bajos, 
+                    entre 20cm y 150cm, y cuenta con más de 100 especies, repartidas por América del Sur y Central y Oceanía.
+                    </p>
+                    <p>Son unas plantas preciosas y fascinantes, que pueden ser de hoja caduca como perenne y flores en muchos colores. ¡Anímate a aprender más!</p>
+                    <a class="centered-low-button scale-on-hover" href="./producto-fuchsia.html">Ver más</a>  
+            </aside>
+        </main>
+        
+        <!--Pie de la página web-->
+        <footer>
+            <a href="https://creativecommons.org">Página Web LMSGI02</a> © 2025 by <a href="https://creativecommons.org">Markel Cortazar</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        </footer>
+    </body>
+</html>

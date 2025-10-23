@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="descripción" content="Fuchsia">
+        <meta name="keywords" content="LMSGI,BIRTLH,PLANTAS,FUCHSIA">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <title>Página de Markel Cortazar</title>
+    </head>
+    <body>
+        <!--Cabecera de la página web, incluye navegación-->
+        <header class="full-width">
+            <a href="./index.html">
+                <img src="img/icono-logo-principal.svg" class="main-logo" alt="Logo de la página web">
+            </a>
+            <h1>PLANTAS</h1>
+            <!--Sección de navegación a las páginas que no son productos o categorías-->    
+            <nav>
+                <a class="scale-on-hover" href="./noticias.html">
+                    <p>
+                        NOTICIAS
+                    </p>
+                </a>
+                <a class="scale-on-hover" href="./contacto.html">
+                    <p>
+                        CONTACTO
+                    </p>
+                </a>
+            </nav>
+        </header>
+
+        <!--Contenido y navegación por lista de categorias-->
+        <main>
+
+            <!--Sección de navegación de categorías de productos-->
+            <nav class="category-list">
+                <!--Incluye las principales categorias de interés, no lleva texto de cabecera así que no es un <section> -->
+                <div class="main-categories">
+                    <a class="scale-on-hover" href="./categoria-externas.html">
+                        <img src="./img/plantas-exterior-banner.jpg" class="img-resize" alt="Imagen de jardín exterior.">
+                        <p>EXTERIOR</p>
+                    </a>
+                    <a href="./página-no-existe.html" class="scale-on-hover">
+                        <img src="./img/plantas-interior-banner.jpg" class="img-resize" alt="Imagen de plantas de interior">
+                        <p>INTERIOR</p>
+                    </a>
+                    <a href="./página-no-existe.html" class="scale-on-hover">
+                        <img src="./img/plantas-facil-banner.jpg" class="img-resize" alt="Imagen de un pequeño cactus siendo regado">
+                        <p>FÁCIL DE CUIDAR</p>
+                    </a>
+                </div>
+                <!--Acceso a categorias menores-->
+                <section class="secondary-categories">
+                    <h2>FAMILIAS</h2>
+                    <ul>
+                        <li>
+                            <a href="./página-no-existe.html">Suculentas</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Orquídeas</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Arbustos</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Fuchsias</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Rosas</a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+            <!--Utiliza div por no llevar encabezado como descendiente directo de esta etiqueta-->
+            <div class="center-section product">
+                <img src="img/plantas-fuchsia-2.jpg" class="img-resize" alt="Imagen de las flores de una fuchsia">
+                <section class="vertical-contents">
+                    <h2>Fuchsia magellanica</h2>
+                    <p>El género de las Fuchsias está compuesto mayoritariamente por arbustos relativamente bajos, 
+                    entre 20cm y 150cm, y cuenta con más de 100 especies, repartidas por América del Sur y Central y Oceanía.</p>
+                    <p>Son plantas de exterior que requieren de riego abundante en su época de crecimiento y floración, y muy
+                    poco durante el invierno. Le favorecen zonas de sombra parcial o luz indirecta. En climas fríos 
+                    es recomendable criarlas en interior en maceta, ya que no se adaptan bien, pero la <i>Fuchsia Magellanica</i> es una variedad muy resistente a todo tipo de condiciones.</p>                   
+                </section>
+                <!--Información adicional de la planta-->
+                <aside class="side-box-right">
+                    <h3>Datos</h3>
+                    <div>
+                        <h4>Riego</h4>
+                        <img src="./img/icono-riego-abundante.png" alt="Icono de planta de riego abundante">
+                    </div>
+                    <div>
+                        <h4>Luz</h4>
+                        <img src="./img/icono-luz-indirecta.png" alt="Icono de planta de luz indirecta o sombra">
+                    </div>
+                    <div>
+                        <h4>Ubicación</h4>
+                        <img src="./img/icono-exterior.png" alt="Icono de planta de exterior"><img src="./img/icono-interior.png" alt="Icono de planta de interior">
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <!--Pie de la página web-->
+        <footer>
+            <a href="https://creativecommons.org">Página Web LMSGI02</a> © 2025 by <a href="https://creativecommons.org">Markel Cortazar</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        </footer>
+    </body>
+</html>

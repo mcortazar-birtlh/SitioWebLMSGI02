@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="descripción" content="Página para LMSGI">
+        <meta name="keywords" content="LMSGI,BIRTLH,PLANTAS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <title>Página de Markel Cortazar</title>
+    </head>
+    <body>
+        <!--Cabecera de la página web, incluye navegación-->
+        <header class="full-width">
+            <a href="./index.html">
+                <img src="img/icono-logo-principal.svg" class="main-logo" alt="Logo de la página web">
+            </a>
+            <h1>PLANTAS</h1>
+            <!--Sección de navegación a las páginas que no son productos o categorías-->    
+            <nav>
+                <a class="scale-on-hover" href="./noticias.html">
+                    <p>
+                        NOTICIAS
+                    </p>
+                </a>
+                <a class="scale-on-hover" href="./contacto.html">
+                    <p>
+                        CONTACTO
+                    </p>
+                </a>
+            </nav>
+        </header>
+
+        <!--Contenido y navegación por lista de categorias-->
+        <main>
+
+            <!--Sección de navegación de categorías de productos-->
+            <nav class="category-list">
+                <!--Incluye las principales categorias de interés, no lleva texto de cabecera así que no es un <section> -->
+                <div class="main-categories">
+                    <a class="scale-on-hover" href="./categoria-externas.html">
+                        <img src="./img/plantas-exterior-banner.jpg" class="img-resize" alt="Imagen de jardín exterior.">
+                        <p>EXTERIOR</p>
+                    </a>
+                    <a href="./página-no-existe.html" class="scale-on-hover">
+                        <img src="./img/plantas-interior-banner.jpg" class="img-resize" alt="Imagen de plantas de interior">
+                        <p>INTERIOR</p>
+                    </a>
+                    <a href="./página-no-existe.html" class="scale-on-hover">
+                        <img src="./img/plantas-facil-banner.jpg" class="img-resize" alt="Imagen de un pequeño cactus siendo regado">
+                        <p>FÁCIL DE CUIDAR</p>
+                    </a>
+                </div>
+                <!--Acceso a categorias menores-->
+                <section class="secondary-categories">
+                    <h2>FAMILIAS</h2>
+                    <ul>
+                        <li>
+                            <a href="./página-no-existe.html">Suculentas</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Orquídeas</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Arbustos</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Fuchsias</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Rosas</a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+            <!--Se utiliza un div por la ausencia de un encabezado-->
+            <div class="center-section">
+                <!--Formulario que envia un email con la información proporcionada-->
+                <form class="vertical-contents" action="mailto:mcortazar@birt.eus" method="get" enctype="text/plain">
+                    <h3>Nombre Completo</h3>
+                    <input type="text" value="Nombre Completo" name="nombre">
+                    <h3>Dirección de Email</h3>
+                    <input type="text" value="Email" name="email">
+                    <h3>Motivo del mensaje</h3>
+                    <select name="subject">
+                        <option value="consulta" selected>Consulta</option>
+                        <option value="queja">Queja</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <h3>Mensaje</h3>
+                    <!--Texto interior formateado así porque <textarea> es sensible a whitespace-->
+                    <textarea name="body" rows="10" cols="30">Escriba aquí su mensaje</textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+            <!--Sección con información a redes-->
+            <aside class="side-box-right vertical-contents">
+                <section>
+                    <h2>REDES SOCIALES</h2>
+                    <!--No se incluyen enlaces debido a que no existen las páginas correspondientes, pero solo habría de añadirse el href-->
+                    <a>Facebook</a>
+                    <a>X</a>
+                    <a>Instagram</a>
+                </section>
+                <!--Lista de agradecimientos por los recursos utilizados-->
+                <section class="move-center-vertical">
+                    <h3>Licencias y agradecimientos</h3>
+                    <ul>
+                        <li>Imágenes
+                            <ul>
+                                <li>
+                                    <a href="https://pixabay.com">Pixabay</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.iconpacks.net">Iconpacks</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Desarrollo
+                            <ul>
+                                <li>
+                                    <a href="https://dummyimage.com/">Imágenes temporales</a>
+                                </li>
+                            </ul>    
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </main>
+        
+        <!--Pie de la página web-->
+        <footer>
+            <a href="https://creativecommons.org">Página Web LMSGI02</a> © 2025 by <a href="https://creativecommons.org">Markel Cortazar</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,252 @@
+@import "normalize.css";
+@import "páginas.css";
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic:wght@400..700&display=swap');
+/*
+Archivo css principal, contine los estilos generales a todas las
+páginas o varias clases de utilidad miscelánea
+*/
+
+/*GENERAL*/
+/*Variables de color para cambio fácil de paleta de color*/
+:root {
+    --main-accent-color: rgb(143, 218, 108);
+    --background-color: rgb(196, 196, 196);
+    --header-color:  rgb(245, 245, 245);
+}
+
+body {
+    display: flex;
+    font-family: "Special Gothic", Helvetica, Arial, sans-serif;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+main {
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+h1, h2, h3 {
+    width: 100%;
+    text-align: center;
+    min-width: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: var(--header-color);
+    border-bottom: 1px black solid;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Ajustes para el logo*/
+header img {
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+}
+/*Ajustes para el apartado de navegación*/
+header nav {
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+header nav a {
+    width: 50%;
+    min-width: 30%;
+    padding: 0% 0%;
+    border-left: 1px black solid;
+    transform-origin: right;
+}
+
+/*CATEGORY NAV*/
+
+.category-list {
+    display: flex;
+    height: auto;
+    background-color: var(--header-color);
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    min-width: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+.main-categories {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.main-categories a {
+    position: relative;
+    transform-origin: left;
+}
+
+/*Añadir sombra al texto para contraste con la imagen y superponer a imagen*/
+.main-categories p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 1px 1px 1px white,
+                -1px -1px 1px white,
+                -1px 1px 1px white,
+                 1px -1px 1px white;
+    font-size: 1.2rem;
+    color: rgb(9, 31, 6);
+    backdrop-filter: drop-shadow(10px 0px 1rem rgba(0, 0, 0, 0.781));
+}
+
+.main-categories img {
+    height: 80px;
+    width: 200px;
+    object-fit: cover;;
+}
+/*Links debajo de las categorias principales*/
+.secondary-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: 120%;
+    line-height: 2em;
+}
+
+/*Reemplazo de iconos de lista*/
+.secondary-categories ul {
+    list-style-image: url(../img/icono-bullet.svg);
+}
+
+/*CENTER SECTION*/
+/*Contrastar sección principal con el fondo, 
+configurar flex y añadir scrolling con barra invisible*/
+.center-section {
+    width: 80%;
+    height: 80%;
+    max-height: fit-content;
+    margin: 5% 5%;
+    padding-right: 3%;
+    background-color: var(--header-color);
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    scrollbar-width: none;
+    text-overflow: ellipsis;
+}
+/*Barra de scroll invisible en navegadores compatibles con webkit*/
+.center-section::-webkit-scrollbar {
+    display: none;
+}
+
+/*Márgenes para contenido*/
+.center-section article {
+    width: 90%;
+    max-height: 33%;
+    padding: 2% 4%;
+    display: flex;
+    border-bottom: 1px black solid;
+}
+
+.center-section section {
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+}
+
+/*RIGHT SIDEBOX*/
+/*Caja en color de acento a la derecha del contenido principal*/
+.side-box-right {
+    width: 25%;
+    margin: 5% 0%;
+    padding: 0% 1%;
+    display: flex;
+    background-color: var(--main-accent-color);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+}
+
+.side-box-right a {
+    margin-top: auto;
+    margin-bottom: 3%;
+    padding: 3%;
+    outline: 1px black solid;
+}
+
+.side-box-right ul{
+    line-height: 2rem;
+}
+
+
+/*FOOTER*/
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 2%;
+    font-size: 0.8em;
+}
+
+/*UTILIDADES*/
+/*Animación de escalado y color más claro al pasar el cursor por encima*/
+.scale-on-hover {
+    transition: all .3s ease-in-out;
+}
+
+.scale-on-hover:hover {
+    transform: scale(1.2);
+    filter: brightness(130%);
+    z-index: 31;
+    text-align: center;
+}
+
+/*Clases para flex*/
+.full-width {
+    width: 100%;
+}
+
+.vertical-contents {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horizontal-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.move-center-vertical {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*Clases para imagenes*/
+/*Mantener ratio de aspecto dado, reducir sección mostrada de la imagen*/
+.img-resize {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/*Fijar imagen a 120px x 120px reducir sección mostrada al reducir*/
+.img-lock-100 {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="12.948525"
+   height="11.04111"
+   viewBox="0 0 12.948525 11.04111"
+   xml:space="preserve"
+   id="svg1"
+   sodipodi:docname="icono-bullet.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="3.3398438"
+   inkscape:cx="12.874854"
+   inkscape:cy="11.22807"
+   inkscape:window-width="1920"
+   inkscape:window-height="1057"
+   inkscape:window-x="-8"
+   inkscape:window-y="229"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+<g
+   style="opacity:1;fill:none;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none"
+   transform="matrix(0.143872,0,0,0.143872,8.0708975e-6,-0.95450549)"
+   id="g1">
+	<path
+   d="M 89.876,11.48 C 89.544,10.362 88.596,9.538 87.442,9.366 59.657,5.225 35.124,3.338 16.208,22.254 10.209,28.253 6.906,36.228 6.906,44.711 c 0,6.501 1.946,12.701 5.553,17.944 C 8.208,67.768 4.212,73.12 0.5,78.719 c -0.916,1.381 -0.538,3.243 0.843,4.158 0.51,0.339 1.085,0.5 1.655,0.5 0.972,0 1.926,-0.472 2.503,-1.342 3.39,-5.112 7.019,-10.016 10.873,-14.709 6.171,6.084 14.23,9.13 22.292,9.13 8.133,0 16.266,-3.096 22.458,-9.287 9.445,-9.445 11.608,-18.276 13.7,-26.816 2.128,-8.685 4.137,-16.888 14.166,-25.773 0.872,-0.773 1.218,-1.982 0.886,-3.1 z"
+   style="opacity:1;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:19.5312;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none"
+   stroke-linecap="round"
+   id="path1" />
+</g>
+</svg>

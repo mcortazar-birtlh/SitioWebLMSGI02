@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="descripción" content="Noticias">
+        <meta name="keywords" content="LMSGI,BIRTLH,PLANTAS,NOTICIAS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <title>Página de Markel Cortazar</title>
+    </head>
+    <body>
+        <!--Cabecera de la página web, incluye navegación-->
+        <header class="full-width">
+            <a href="./index.html">
+                <img src="img/icono-logo-principal.svg" class="main-logo" alt="Logo de la página web">
+            </a>
+            <h1>PLANTAS</h1>
+            <!--Sección de navegación a las páginas que no son productos o categorías-->    
+            <nav>
+                <a class="scale-on-hover" href="./noticias.html">
+                    <p>
+                        NOTICIAS
+                    </p>
+                </a>
+                <a class="scale-on-hover" href="./contacto.html">
+                    <p>
+                        CONTACTO
+                    </p>
+                </a>
+            </nav>
+        </header>
+
+        <!--Contenido y navegación por lista de categorias-->
+        <main>
+
+            <!--Sección de navegación de categorías de productos-->
+            <nav class="category-list">
+                <!--Incluye las principales categorias de interés, no lleva texto de cabecera así que no es un <section> -->
+                <div class="main-categories">
+                    <a class="scale-on-hover" href="./categoria-externas.html">
+                        <img src="./img/plantas-exterior-banner.jpg" class="img-resize" alt="Imagen de jardín exterior.">
+                        <p>EXTERIOR</p>
+                    </a>
+                    <a href="./página-no-existe.html" class="scale-on-hover">
+                        <img src="./img/plantas-interior-banner.jpg" class="img-resize" alt="Imagen de plantas de interior">
+                        <p>INTERIOR</p>
+                    </a>
+                    <a href="./página-no-existe.html" class="scale-on-hover">
+                        <img src="./img/plantas-facil-banner.jpg" class="img-resize" alt="Imagen de un pequeño cactus siendo regado">
+                        <p>FÁCIL DE CUIDAR</p>
+                    </a>
+                </div>
+                <!--Acceso a categorias menores-->
+                <section class="secondary-categories">
+                    <h2>FAMILIAS</h2>
+                    <ul>
+                        <li>
+                            <a href="./página-no-existe.html">Suculentas</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Orquídeas</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Arbustos</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Fuchsias</a>
+                        </li>
+                        <li>
+                            <a href="./página-no-existe.html">Rosas</a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+
+            <!--Contiene las noticias recomendadas, sin cabecera, asi que es un div en vez de section-->
+            <div class="center-section vertical-contents">
+                <article>
+                    <img src="https://content.nationalgeographic.com.es/medio/2025/07/23/white-chinned-sapphire-hummingbird_00000000_fe68820e_250723130713_1280x740.webp" class="img-resize" alt="Imagen de un colibrí junto a unas flores">
+                    <section>
+                        <h2> Sin avispas no tendríamos higos: así funciona el mutualismo</h2>
+                        <p> El mutualismo, una forma de simbiosis, es la interacción entre dos individuos que 
+                            beneficia a ambos y está muy extendido por todo el reino animal.</p>
+                        <a class="scale-on-hover centered-low-button" href="https://www.nationalgeographic.com.es/mundo-animal/sin-avispas-no-tendriamos-higos-asi-funciona-el-mutualismo_25764">Ver más</a>
+                    </section>
+                </article>
+                <article>
+                    <img src="https://imagenes.elpais.com/resizer/v2/YHTVFJE4LNFY3OSEUWPGFVXJBI.jpg?auth=ee51dabb73cf3811b61d3b5e414b9c58907c607914300bf0732e2f5aab42a8f2&width=1200" class="img-resize" alt="Imagen de un criptanto.">
+                    <section>
+                        <h2> Cómo cultivar y cuidar una estrella de tierra en casa</h2>
+                        <p>Primos lejanos de las piñas, la anatomía de los criptantos es muy elegante, con hojas
+                             rígidas de bordes con un fino dentado y coloraciones y patrones fascinantes. 
+                             Resistentes al ambiente seco del interior de los hogares, donde más disfrutan es muy 
+                             cerca de una ventana</p>
+                        <a class="scale-on-hover centered-low-button" href="https://elpais.com/estilo-de-vida/2025-10-05/como-cultivar-y-cuidar-una-estrella-de-tierra-en-casa.html">Ver más</a>
+                    </section>
+                </article>
+                <article>
+                    <img src="https://content.nationalgeographic.com.es/medio/2025/09/30/venus-flytrap-dionaea-muscipula-planta-carnivora_60247ddc_(23786172198)_250930164002_1280x854.webp" class="img-resize" alt="Imagen de plantas carnívoras">
+                    <section>
+                        <h2>Las plantas carnívoras que asombraron hasta a Darwin</h2>
+                        <p> El padre de la teoría de la evolución escribió un monográfico de 400 páginas acerca de las curiosas adaptaciones de las plantas carnívoras.</p>
+                        <a class="scale-on-hover centered-low-button" href="https://www.nationalgeographic.com.es/ciencia/plantas-carnivoras-que-asombraron-a-darwin_26290">Ver más</a>
+                    </section>
+                </article>
+
+            </div>
+        </main>
+        
+        <!--Pie de la página web-->
+        <footer>
+            <a href="https://creativecommons.org">Página Web LMSGI02</a> © 2025 by <a href="https://creativecommons.org">Markel Cortazar</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        </footer>
+    </body>
+</html>
